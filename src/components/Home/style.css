@@ -1,0 +1,40 @@
+.homesection{
+    height: 450px;
+    background-image: url("../../../public/images/home-bg.jpg");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+  
+}
+.homeinfo{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.hometitle{
+    margin-bottom:10px;
+    font-size: 50px;
+    color: #888;
+}
+.homeinfo h4{
+    font-size: 25px;
+    color: #eb5424;
+    margin-bottom: 0;
+}
+.homeinfo p{
+   font-size: 18px;
+   color: #888;
+   
+}
+.homeinfo span{
+    color: #000;
+}
+.homeinfo button{
+   padding: 10px 15px;
+   color: white;
+   background-color: #eb5424;
+   border: none;
+   cursor: pointer;
+}

@@ -1,0 +1,40 @@
+.SocialmediaSection{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(350px,1fr));
+    height: auto;
+}
+.SocialmediaSection .box{
+    background-color: #3e3eda;
+    padding: 100px 0 100px 40px;
+    color: white;
+    text-transform: uppercase;
+}
+
+    
+
+.SocialmediaSection .box i{
+    background-color: #eee;
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
+    color: #888;   
+}
+.SocialmediaSection .box h4{
+  margin: 0 0 0 50px; 
+}
+.SocialmediaSection .box p{
+    margin-left: 50px;
+    margin-top: 0;
+    
+  }
+
+.SocialmediaSection .box{
+    background-color: cornflowerblue;
+}
+.SocialmediaSection .box{
+    background-color: rgb(236, 48, 48);
+}

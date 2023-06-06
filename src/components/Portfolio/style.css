@@ -1,0 +1,65 @@
+.Portfoliosection{
+    background-color: #eee;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+ 
+}
+.Portfoliotitle{
+    padding-top: 40px;
+}
+.Portfoliotitle span{
+    font-weight: normal;
+}
+.Portfoliosection .ullist li{
+    list-style: none;
+    padding: 5px 30px;
+    
+}
+.Portfoliosection .ullist li:first-of-type{
+    background-color:#eb5424 ;
+    color: white;
+}
+.Portfolioinfo{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(300px,1fr));
+  
+}
+.Portfolioinfo .content{
+    position: relative;
+    font-size: 0;
+}
+
+.Portfolioinfo .content img{
+    max-width: 100%;
+    position: relative;
+
+}
+.Portfolioinfo .content:hover::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 0, 0, .3);
+    z-index: 1;
+
+    
+}
+.Portfolioinfo .content span{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: white;
+    padding: 5px 10px;
+    border: 1px solid #eb5424 ;
+    font-size: 15px;
+    cursor: pointer;
+    display: block;
+    opacity: 0;
+}
+.Portfolioinfo .content:hover span{
+    opacity: 1;
+
+}
+

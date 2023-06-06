@@ -1,0 +1,30 @@
+.Navbarsection{
+    border-bottom: 1px solid #000;
+    padding: 5px 0;
+}
+
+
+.navinfo{
+    display: flex;
+    justify-content: space-between;
+}
+.ullist{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+.ullist li{
+    list-style: none;
+}
+.ullist li a{
+    text-decoration: none;
+    padding: 10px;
+    margin: 0;
+    font-weight: bold; 
+    color: black;
+}
+.ullist li a:hover{
+    color: red;
+}

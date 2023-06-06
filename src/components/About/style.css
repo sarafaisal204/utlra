@@ -1,0 +1,32 @@
+.aboutSection{
+    background-image: url(../../../public/images/about-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 500px;
+   
+}
+
+.aboutSection .aboutInfo{
+    width: 50%;
+    margin-top: 50px;
+    padding-top: 100px;
+    margin-left: 50%;
+   
+}
+.aboutSection .aboutInfo h2{
+    font-size: 35px;
+    margin-bottom: 14px;
+}
+.aboutSection .aboutInfo h2 span{
+    font-weight: normal;
+
+}
+.aboutSection .aboutInfo h4{
+    font-size: 30px;
+    margin: 0;
+    color: #eb5424 ;
+}
+.aboutSection .aboutInfo p{
+    font-size: 14px;
+}

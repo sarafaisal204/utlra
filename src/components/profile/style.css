@@ -1,0 +1,70 @@
+.ProfileSection .skillInfo{
+    display: flex;
+  
+}
+.ProfileSection .skillInfo .content{
+    width: 50%;
+}
+.ProfileSection .skillInfo .content .contenttitel{
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.ProfileSection .skillInfo .content span{
+    font-weight: normal;
+}
+.ProfileSection .skillInfo .content li{
+    list-style: none;
+    margin-bottom: 5px;
+    
+}
+.ProfileSection .skillInfo .content li span{
+    display:inline-block;
+    width: 85px;
+    font-weight: bold;
+}
+.ProfileSection .skillInfo .content li a{
+    text-decoration: none;
+    color: rgb(221, 108, 108);
+    cursor: pointer;
+}
+.ProfileSection .skillInfo .skills{
+    width: 50%;
+}
+.ProfileSection .skillInfo .skills h4{
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.ProfileSection .skillInfo .skills span{
+    font-weight: normal;
+
+}
+.ProfileSection .skillInfo .skills .text{
+    font-size: 13px;
+    margin-bottom: 25px;
+    color: #888;
+}
+
+
+.skills .skill{
+    position: relative;
+    margin-bottom: 20px;
+}
+.skills .skill .skillname{
+    position: relative;
+}
+
+.skills .skill .spanskill{
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 85px;
+   
+}
+.skills .skill .line{
+    height: 2px;
+    background-color: rgb(221, 108, 108);
+    position: absolute; 
+    top: 25px;
+    left: 0;
+   
+}

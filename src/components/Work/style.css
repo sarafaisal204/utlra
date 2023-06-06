@@ -1,0 +1,38 @@
+.worktitle{
+    font-size: 45px;
+    margin-top: 60px;
+}
+.worktitle span{
+    font-weight: normal;
+}
+
+.worksection .workinfo{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(300px,1fr));
+    gap:60px;
+    text-align: center;
+    
+    
+}
+.workinfo .content{
+    border: 1px solid #888;
+    padding: 100px 0;
+
+}
+.workinfo .content i{
+    color: #888;
+}
+.workinfo .content h4{
+    color:#eb5424 ;
+    margin-top: 35px;
+    
+}
+.workinfo .content hr{
+    width: 50%;
+    margin-top: 0;
+}
+.workinfo .content p{
+    font-size: 12px;
+    margin-top: 25px;
+    color: #888;
+}
